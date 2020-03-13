@@ -1,4 +1,7 @@
 import org.opencv.core.Core;
+// Imported the following two imports to prepare for using Jframe, a GUI libary
+import java.awt.*;
+import javax.swing.*;
 import org.opencv.core.CvType;
 import org.opencv.core.Mat;
 import org.opencv.core.Rect;
