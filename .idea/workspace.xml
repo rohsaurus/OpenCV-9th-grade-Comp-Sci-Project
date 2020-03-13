@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="48f41dc1-ddc5-4ad0-bd99-0aa953064c6e" name="Default Changelist" comment="" />
+    <list default="true" id="48f41dc1-ddc5-4ad0-bd99-0aa953064c6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,6 +33,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -97,6 +100,7 @@
       <workItem from="1583501690640" duration="623000" />
       <workItem from="1583502388216" duration="1910000" />
       <workItem from="1583842043282" duration="29000" />
+      <workItem from="1584104300024" duration="319000" />
     </task>
     <servers />
   </component>
