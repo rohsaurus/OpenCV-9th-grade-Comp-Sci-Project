@@ -46,7 +46,7 @@ public class test {
             Rect rectCrop = new Rect(leftx, downy, 1050, 1050); //crops the image based on the lower left corner of the image, going 1050 pixels right and 1050 pixels up to generate a square image
             Mat last = Imgcodecs.imread("C:\\Users\\mpari\\Documents\\coding projects\\Java\\OpenCV Pictures\\IMG_1383.jpg"); //Loads in the original image to crop
             Mat image_output  = last.submat(rectCrop); //applies to image
-            Imgcodecs.imwrite("C:\\Users\\mpari\\Downloads\\IMG1383ISTundCROPPED.jpg", image_output); //writes the final cropped image
+            Imgcodecs.imwrite("C:\\Users\\mpari\\Documents\\coding projects\\IMG1383ISTundCROPPED.jpg", image_output); //writes the final cropped image
             Mat croppedimage = Imgcodecs.imread("C:\\Users\\mpari\\Downloads\\IMG1383ISTundCROPPED.jpg", Imgcodecs.IMREAD_GRAYSCALE );
             Mat croppedgrayscale = new Mat(croppedimage.rows(), croppedimage.cols(), croppedimage.type());
             croppedimage.convertTo(destination, CvType.CV_8S);
